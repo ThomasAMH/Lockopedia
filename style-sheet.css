@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px 10px;
+  font-family: "Georgia";
+  font-size: 26px;
+  text-align: left;
+}
+
+h2 {
+  padding: 20px 10px;
+  font-family: "Georgia"
+  font-size: 18px;
+}
+
+h3 {
+  padding: 20px 10px;
+  font-family: "Georgia"
+  font-size: 16px;
+}
+
+p {
+  font-family: "Segoe UI"
+  font-size: 12px;
+  padding: 20px 20px;
+}
+
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.content-box {
+    display: flex;
+    background-color: #f2f2f2;
+
+}
+
+.links {
+  display: flex;
+  
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-items {
+  display: flex;
+}
+
+.logo {
+  background-color: #ededed;
+  display: flex;
+  width: 298px;
+  border: 1px solid #000;
+}
+
+.logo-box {
+  background-color: #5995DA;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.page {
+  display: flex;
+  width: 70%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.title-box {
+  display: flex;
+  width: inherit;
+
+}
+
+.quick-stats {
+    width: 394px;
+    padding: 15px;
+}
+
+/*
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+*/
+
+/*FIXME Kill me and replace me with a class*/
+#random-bold-text {
+    font-weight:bold;
+}
