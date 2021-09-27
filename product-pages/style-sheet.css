@@ -1,6 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 32px;
   font-family: serif;
+  padding-top: 25px;
   padding-left: 10px;
 }
 
@@ -24,11 +31,13 @@ p {
 
 li {
   font-size: 14px;
+  list-style-type: none;
   font-family: serif;
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
+
 }
 
 .footer {
@@ -36,7 +45,6 @@ ul {
   background-color: #5995da;
   display: flex;
   justify-content: center;
-
 }
 
 .footer-link {
@@ -68,10 +76,9 @@ ul {
 }
 
 .page-title-box {
-  background-color: #5995da;
+  /*background-color: #5995da;*/
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid black;
 
 }
 .reference {
@@ -91,9 +98,7 @@ ul {
 }
 
 .summary-box {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+
   display: flex;
   flex-direction: column;
   padding-right: 30px
@@ -101,7 +106,7 @@ ul {
 }
 
 .text-box {
-  border-top: 1px solid black;
+
   border-bottom: 1px solid black;
   display: flex;
   flex-direction: column;

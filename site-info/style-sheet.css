@@ -106,7 +106,6 @@ ol {
 }
 
 .title-box {
-  background-color: #5995da;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid black;
@@ -131,8 +130,3 @@ div {
   margin: 20px auto;
 }
 */
-
-/*FIXME Kill me and replace me with a class*/
-#random-bold-text {
-    font-weight:bold;
-}
