@@ -7,7 +7,7 @@
     </div>
     <router-view/>
     <footer>
-      <a href="#">Lockopedia on GitHub</a>
+      <a href="https://github.com/ThomasAMH/Lockopedia/tree/main">Lockopedia on GitHub</a>
     </footer>
   </div>
 </template>
